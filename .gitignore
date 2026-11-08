@@ -1,19 +1,28 @@
-# Virtual environment
+# Virtual environments
 venv/
+myvenv/
 env/
 .venv/
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Dataset
+# Datasets
 data/
 datasets/
 
 # Temporary files
 *.log
 .DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
